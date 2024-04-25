@@ -1,0 +1,190 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 70px;
+    position: sticky;
+    top: 0;
+    background:#dedede;
+    z-index: 1;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 15px 0px 15px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color:#364f6b;
+}
+
+.logo a{
+    font-size: 40px;
+    font-weight: 600;
+    float: left;
+    font-family: courier;
+    color: #364f6b;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.home{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+h3{
+    font-family: 'comic sans ms';
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 20px;
+}
+
+a.btn1{
+    background: black;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.btn1:hover{
+    background: #dedede;
+    text-decoration: none;
+}
+
+.judul{
+    text-align: center;
+}
+
+.produk-kategori{
+    width: 30%;
+    padding: 20px;
+}
+
+.keterangan{
+    text-align: center;
+}
+
+a.btn-produk{
+    background: black;
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 10px 15px 10px 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+a.btn-produk:hover{
+    background: #dedede;
+    text-decoration: none;
+}
+
+.brand-produk{
+    text-align: center;
+    width: 100%;
+}
+
+.judul-brand{
+    margin-bottom: 50px;
+}
+
+.brand-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.brand-card{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.brand-card img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+#contact{
+    background: #dedede;
+    padding: 30px 0px 30px 0px;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section{
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3{
+    font-family: 'comic sans ms';
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 20px;
+}
+.img1{
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+}
