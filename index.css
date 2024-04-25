@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.item1{
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+}
+.heading1{
+    text-align: center;
+    background-size: cover;
+    color: cornsilk;
+    background-color: aquamarine;
+    padding: 100px;
+}
+.image1{
+    height: 300px;
+    width: 400px;
+}
+.item2{
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+}
+.item3{
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+
+}
